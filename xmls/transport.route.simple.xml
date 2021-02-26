@@ -1,0 +1,18 @@
+<routes>
+    <vTypeDistribution id="typedist1">
+        <vType id="type1" accel="0.8" length="5" maxSpeed="70" probability="0.9"/>
+    </vTypeDistribution>
+
+    <routeDistribution id="routedist1">
+        <route id="route0" color="1,1,0" edges="bottom0A0 A0top0" probability="0.5"/>
+        <route id="route1" color="0,1,1" edges="top0A0 A0bottom0" probability="0.5"/>i
+    </routeDistribution>
+    <routeDistribution id="routedist2">
+        <route id="route2" color="1,0,1" edges="left0A0 A0right0" probability="0.5"/>
+        <route id="route3" color="0,0,1" edges="right0A0 A0left0" probability="0.5"/>
+    </routeDistribution>
+
+    <flow id="f0" type="typedist1" route="routedist1" depart="0" color="1,1,0" probability="0.3"/>
+    <flow id="f1" type="typedist1" route="routedist2" depart="0" color="0,1,1" probability="0.2"/>
+
+</routes>
