@@ -8,6 +8,7 @@
     <input>
         <net-file value="fstmap.net.xml"/>
         <route-files value="cross.route.xml"/>
+        <additional-files value="e3.add.xml"/>
     </input>
     
     <time>
